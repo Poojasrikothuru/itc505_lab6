@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <header>
+        <h1>Number Guessing Game</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rules</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <div class="game">
+                <h2>Guess the Number</h2>
+                <p>Enter a number between 1 and 10:</p>
+                <input type="number" id="user-input" />
+                <button id="submit-guess">Submit Guess</button>
+                <div class="result">
+                    <p id="result-text"></p>
+                    <p id="correct-number"></p>
+                </div>
+                <button id="play-again">Play Again</button>
+            </div>
+        </main>
+
+        <!-- Updated ad image container with a clickable link -->
+        <aside class="advertisement">
+            <p class="ad-title">Advertisement</p>
+            <a href="https://www.amazon.com/Coach-Polished-Pebble-Leather-Shoulder/dp/B0BSFT4HY5/ref=sr_1_2?_encoding=UTF8&content-id=amzn1.sym.cd256b48-6154-4f0e-91ed-8212af04df0d&isTryState=0&nodeID=14807110011&pd_rd_r=322d6a56-9feb-4acb-b248-aacb1f0cb756&pd_rd_w=9RHhi&pd_rd_wg=VEQTM&pf_rd_p=cd256b48-6154-4f0e-91ed-8212af04df0d&pf_rd_r=9DTVE8X00451B2GCV4X3&psd=1&qid=1699933743&refinements=p_n_feature_eighteen_browse-bin%3A21451213011%2Cp_89%3ACOACH&s=prime-wardrobe&sr=1-2" target="_blank" class="ad-image-container">
+                <img src="amazon.jpg" alt="Advertisement">
+            </a>
+        </aside>
+
+        <footer>
+            <p>
+                This page features a Holy Grail layout and an interactive Number Guessing Game implemented using HTML, CSS, and JavaScript.
+                The user can input a guess, and the computer randomly selects a correct number. The result is displayed on the page.
+                The styling and layout have been enhanced with vibrant colors to create an engaging user experience.
+
+                <br><br>
+
+                <strong>Advertisement Disclosure:</strong> The advertisement above is a clickable image that takes you to an external site.
+                Click responsibly.
+
+                <br><br>
+
+                <strong>JavaScript Solution Overview:</strong> The JavaScript code generates a random correct number,
+                compares it with the player's guess, and determines the winner.
+                The result is displayed, and a "Play Again" button allows the user to reset the game for another round.
+
+                <br><br>
+
+                <strong>Challenges and Solutions:</strong>
+                <ul>
+                    <li><strong>Validating user input:</strong> Ensuring that the user input is a valid number within the specified range required careful input validation.
+                        This was achieved through JavaScript checks and error messages to guide the user.</li>
+                    <li><strong>Dynamic content updates:</strong> Implementing a smooth transition between game rounds, especially when displaying the correct number, presented a challenge.
+                        Leveraging CSS transitions for the result text and correct number brought about a seamless user experience.</li>
+                    <li><strong>User engagement:</strong> The addition of a "Play Again" button allows users to initiate new rounds swiftly,
+                        contributing to a more enjoyable and dynamic gameplay experience.</li>
+                </ul>
+
+                <br><br>
+
+                <strong>Addendum:</strong>
+                <br>
+                The development of this Number Guessing Game aimed to showcase the integration of HTML, CSS, and JavaScript
+                to create an interactive and visually appealing web application. Addressing challenges in input validation,
+                content updates, and user engagement were integral to the project's success.
+                Overall, it demonstrates the versatility of web development in creating different interactive games.
+
+            </p>
+        </footer>
+    </div>
+
+    <script src="number-guessing-script.js"></script> <!-- Replace with your JavaScript file for the Number Guessing Game -->
+</body>
+</html>
